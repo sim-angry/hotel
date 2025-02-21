@@ -1,6 +1,6 @@
 ## 국내숙박예약프로그램_hotel.jsp👋
 
-![image](https://github.com/user-attachments/assets/8c7989f8-f190-486e-924d-ffe35e43f065)
+![image](https://github.com/user-attachments/assets/3b547e74-e6cf-4c97-bb17-7f9d5a14e785)
 <br>
 <br>
 ![image](https://github.com/user-attachments/assets/3eb1bd84-0548-4567-84ac-c882d96570a1)
