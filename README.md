@@ -3,9 +3,6 @@
 ![image](https://github.com/user-attachments/assets/3b547e74-e6cf-4c97-bb17-7f9d5a14e785)
 <br>
 <br>
-![image](https://github.com/user-attachments/assets/9198485a-2494-4582-b8a9-b1859b84ef66)
-<br>
-<br>
 ![image](https://github.com/user-attachments/assets/1d15950e-ce0b-4975-88fb-462235d812e5)
 <br>
 <br>
