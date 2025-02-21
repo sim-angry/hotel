@@ -1,0 +1,912 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+body {
+  font-family: "Dongle", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+#text > a {
+   color: black;
+}
+
+#text > a:hover {
+   color: lightsteelblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#box {
+  color: lightskyblue;
+}
+
+td {
+  font-weight: bolder;
+  color: #555651;
+  text-shadow: 1px 1px 1px white;
+}
+
+th {
+  color: #555651;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px white;
+  padding: 10px;
+  text-align: center;
+}
+
+.memo {
+  color: lightsteelblue;
+}
+
+.number {
+  cursor: pointer;
+  text-decoration: none;
+  color: lightblue;
+  font-weight: bolder;
+}
+
+.number:hover {
+  color:cornflowerblue;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px lightsteelblue;
+  color: lightsteelblue;
+  font-size: larger;
+  font-size: xx-large;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bolder;
+  color: #555651;
+  margin-left: 20px;
+  font-size: xx-large;
+}
+
+h2 {
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px lightsteelblue;
+  color: lightsteelblue;
+  font-size: larger;
+  text-align: center;
+  font-size: xx-large;
+}
+
+#wrap {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid lightblue;
+  box-shadow: 2px 2px 2px lightblue;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  background-color:lightblue;
+}
+
+#header .logo {
+  width: 20%;
+  height: 100px;
+  background-color: lightblue;
+}
+#header .nav {
+  width: 80%;
+  height: 100px;
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+li {
+  list-style: none;
+  z-index: 3;
+  font-size: x-large;
+}
+
+/* 주메뉴 */
+.nav > ul {
+  display: flex;
+  margin-top: 30px;
+  justify-content: left;
+}
+
+.nav > ul > li {
+  position: relative;
+}
+
+.nav > ul > li > a {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: lightblue;
+  text-shadow: 2px 2px 2px lightblue;
+}
+
+.nav > ul > li > a:hover {
+  background-color: lightblue;
+}
+
+/* 서브메뉴 */
+.nav > ul > li > ul {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 42px;
+  background-color: lightblue;
+  width: 100%;
+  display: none;
+}
+
+.nav > ul > li > ul > li > a {
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: lightblue;
+  box-shadow: 3px 3px 3px lightblue;
+}
+
+.nav > ul > li > ul > li > a:hover {
+  background-color:lightskyblue;
+}
+
+/*#slider {
+    width: 100%;
+    height: 300px;
+    background-color: #d9d9d9;
+}
+
+#slider1 {
+    width: 100%;
+    height: 300px;
+    background-color: #d9d9d9;
+}*/
+
+#contents {
+  width: 1200px;
+  background-color: white;
+}
+/*#contents .content1 {
+    width: 33.3333%;
+    height: 200px;
+    background-color: #d1d1d1;
+}
+#contents .content2 {
+    width: 33.3333%;
+    height: 200px;
+    background-color: #c7c7c7;
+}
+#contents .content3 {
+    width: 33.3333%;
+    height: 200px;
+    background-color: #bcbcbc;
+}*/
+
+#contents1 {
+  width: 1200px;
+  background-color: white;
+}
+
+/*#contents1 .content1 {
+    width: 33.3333%;
+    height: 200px;
+    background-color: #d1d1d1;
+}
+#contents1 .content2 {
+    width: 33.3333%;
+    height: 200px;
+    background-color: #c7c7c7;
+}
+#contents1 .content3 {
+    width: 33.3333%;
+    height: 200px;
+    background-color: #bcbcbc;
+}*/
+
+#footer {
+  width: 100%;
+  display: flex;
+}
+
+#footer4 {
+  height: 200px;
+}
+
+#footer .footer1 {
+  width: 33.3333%;
+  height: 100px;
+}
+#footer .footer2 {
+  width: 33.3333%;
+  height: 100px;
+}
+#footer .footer3 {
+  width: 33.3333%;
+  height: 100px;
+}
+
+.btlogo {
+  float: left;
+  margin-left: 40px;
+  /* width: 1000px; */
+  /* 하단 로고 영역 너비 */
+  height: 100px;
+  /* 하단 로고 영역 높이 */
+}
+
+.btlogo img {
+  /* 로고 이미지 스타일 */
+  float: left;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.btlogo a img {
+  width: 50px;
+  height: 50px;
+}
+
+.btlogo p {
+  padding-top: 50px;
+  text-align: center;
+  height: 60px;
+  line-height: 30px;
+}
+
+.bottommenu {
+  width: 190px;
+  float: left;
+  margin-top: 20px;
+}
+
+.bottomtext {
+  text-align: center;
+  float: left;
+  margin-left: -70px;
+  width: 250px;
+  margin-top: 10px;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.btmenu li:hover {
+  font-weight: bold;
+}
+
+.bottom {
+  /* 하단메뉴+Copyright 영역 */
+  float: left;
+  height: 120px;
+  width: 80%;
+  /* btmenu+copy 영역을 너비의 80%로 지정 */
+}
+
+.btmenu {
+  float: left;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+.btmenu ul {
+  /* 하단메뉴 목록 리스트 */
+  text-align: center;
+}
+
+.btmenu li {
+  /* 하단메뉴 하위 목로  */
+  display: inline;
+}
+
+.btmenu a {
+  /* 하단메뉴 내 a 태그 리스트 */
+  display: inline;
+  color: lightblue;
+  font-weight: bolder;
+}
+
+.btmenu li::after {
+  /* 각 하위 목록 다음에 추가할 문자열 */
+  content: " | ";
+  color: lightblue;
+  font-weight: bolder;
+}
+
+.btmenu li:last-child::after {
+  /* 마지막 하위 목록 다음 */
+  content: "";
+  font-weight: bolder;
+}
+
+.btmenu a:hover {
+  color: lightskyblue;
+}
+
+.copy {
+  float: left;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+  color: darkgray;
+}
+
+.copy > p {
+  text-shadow: 1px 1px 1px darkgray;
+  font-weight: bolder;
+  color: gray;
+}
+
+.familysite {
+  width: 100%;
+  height: 50px;
+  /* familysite 영역을 너비의 20%로 지정 */
+}
+
+.familysite select {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  top: -150px;
+  left: 900px;
+  font-size: 16px;
+  margin-top: 45px;
+  margin-right: 100px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#sns {
+  position: relative;
+  float: right;
+  right: -120px;
+  top: -60px;
+  margin-top: 50px;
+}
+
+#sns ul li {
+  border: none;
+  /* 테두리 없이 */
+  padding: 5px;
+  float: left;
+}
+
+.main-section1 {
+  background-color: white;
+  border: 1px solid lightblue;
+  box-shadow: 2px 2px 2px lightblue;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-section {
+  color: lightblue;
+  padding-top: 120px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 1px lightblue;
+  border: solid 1px lightblue;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+#login {
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 60px;
+  width: 50px;
+  font-size: small;
+  height: 30px;
+  color: white;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+}
+
+#login:hover {
+  background-color:lightskyblue;
+}
+
+#login1 {
+  cursor: pointer;
+  font-weight: bolder;
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 130px;
+  font-size: small;
+  height: 20px;
+  color: white;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  box-shadow: 1px 1px 1px lightblue;
+}
+
+#login1:hover {
+  background-color: lightskyblue;
+}
+
+#login2 {
+  cursor: pointer;
+  font-weight: bolder;
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 100px;
+  font-size: small;
+  height: 20px;
+  color: white;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  box-shadow: 1px 1px 1px lightblue;
+}
+
+#login2:hover {
+  background-color: lightskyblue;
+}
+
+#login3 {
+  cursor: pointer;
+  font-weight: bolder;
+  width: 100px;
+  margin-top: 80px;
+  font-size: small;
+  height: 20px;
+  color: white;
+  background-color:skyblue;
+  border: 1px solid lightblue;
+  box-shadow: 1px 1px 1px lightblue;
+}
+
+#login3:hover {
+  background-color: lightblue;
+}
+
+#login4 {
+  cursor: pointer;
+  font-weight: bolder;
+  width: 60px;
+  font-size: small;
+  color: white;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  box-shadow: 1px 1px 1px lightblue;
+}
+
+#login4:hover {
+  background-color: lightskyblue;
+}
+
+#login5 {
+  cursor: pointer;
+  font-weight: bolder;
+  margin-right: 70px;
+  margin-bottom: -20px;
+  width: 100px;
+  font-size: small;
+  height: 20px;
+  color: white;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  box-shadow: 1px 1px 1px lightblue;
+}
+
+#login5:hover {
+  background-color: lightskyblue;
+}
+
+#login6 {
+  cursor: pointer;
+  font-weight: bolder;
+  width: 100px;
+  font-size: small;
+  height: 20px;
+  color: white;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  box-shadow: 1px 1px 1px lightblue;
+}
+
+#login6:hover {
+  background-color: lightskyblue;
+}
+
+#login7 {
+  cursor: pointer;
+  font-weight: bolder;
+  width: 100px;
+  font-size: small;
+  height: 20px;
+  color: white;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  box-shadow: 1px 1px 1px lightblue;
+  margin-left:120px
+}
+
+#login7:hover {
+  background-color: lightskyblue;
+}
+
+
+
+#hotel_id {
+  font-weight: bold;
+  color: lightsteelblue;
+  text-shadow: 1px 1px 1px lightsteelblue;
+  margin-top: 20px;
+}
+
+#hotel_password {
+  font-weight: bold;
+  color: lightsteelblue;
+  text-shadow: 1px 1px 1px lightsteelblue;
+}
+
+
+
+.page-title {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    margin-top:-50px;
+    margin-left: 50px;
+}
+
+
+#car {
+    grid-area: car;
+    position: relative;
+    width: 100%;
+}
+
+.content {
+    margin: 80px auto 40px;
+    width: 90%;
+    padding: 20px;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.content ol {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.photo>img {
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.photo {
+    width: 42%;
+    display: block;
+    margin-top:-40px;
+}
+.photo2 #map div div div div {
+		display: block;
+}
+
+#car .photo {
+    float: right;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+
+#hotel {
+    grid-area: hotel;
+    position: relative;
+    width: 100%;
+}
+
+.photo1>img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    z-index: 1;
+}
+
+.photo1 {
+    width: 42%;
+    display: block;
+
+}
+
+#hotel .photo1 {
+   float: right;
+    margin-top: -60px;
+}
+
+#hotel {
+    grid-area: hotel;
+    position: relative;
+    width: 100%;
+}
+
+.photo2>div {
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.photo2 {
+    width: 42%;
+    display: block;
+}
+
+#hotel .photo2 {
+    display: flex;
+    position: relative;
+    top: -80px;
+    left: 220px;
+   margin-bottom: -60px;
+   width: 250px;
+   height: 250px;
+}
+
+.photo3>img {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.photo3 {
+    width: 25%;
+    display: block;
+    margin-top:-40px;
+}
+
+#car .photo3 {
+    float: right;
+    margin-right: 200px;
+    margin-top: -50px;
+}
+
+.text1{
+   list-style:decimal;
+   width: 500px;
+}
+
+.text2{
+   list-style:decimal;
+   font-size: 1.8em;
+   width: 500px;
+}
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      #wrap {
+        width: 800px;
+      }
+      .nav > ul > li {
+       position: relative;
+       flex: 1;
+     }
+      h1 {
+        font-size: 0.8em;
+      }
+      .nav > ul > li > a {
+       padding: 5px;
+       display: block;
+       text-align: center;
+       width: 100%;
+       font-size: 15px;
+       background-color: lightblue;
+       text-shadow: 2px 2px 2px lightblue;
+}
+      p {
+        font-size: 1.1em;
+      }
+      #contents, #contents1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 85%;
+        padding: 5%;
+      }
+     .familysite select {
+      top: -150px;
+       left: 540px;
+     }
+     #sns {
+      right: -80px;
+     }
+     .main-section, .main-section1{
+        width: 85%;
+        padding: 5%;
+        margin: 20px auto;
+        padding-top: 10px;
+     }
+     #hotel .photo1 {
+        position: absolute;
+        margin: 0;
+        top: 400px;
+     }
+     #hotel .photo1 > img{
+      position: relative;
+      width: 200px;
+        height: 200px;
+     }
+     #hotel .photo1 .photo2{
+        position: relative;
+        top: -200px;
+        left: 250px;
+        width: 200px;
+        height: 200px;
+        }
+     
+     #car .photo {
+      position: absolute;
+      display: flex;
+      width: 85%;
+      margin: 0;
+        top: 350px;
+     }
+     .photo>img {
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+     }
+     
+       #car .photo3 {
+      position: absolute;
+      display: flex;
+      width: 85%;
+      margin: 0;
+        top: 350px;
+     }
+     .photo3>img {
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+     }
+     
+     .content {
+      position: relative;
+      display: block;
+        width: 85%;
+        height: 600px;
+        padding: 5%;
+     }
+     .text1 {
+        width: 500px;
+        white-space: normal; /* 기본 줄바꿈 허용 */
+        word-wrap: break-word; /* 긴 단어의 경우 줄바꿈 허용 */
+     }
+
+	   .text2 {
+        width: 500px;
+        white-space: normal; /* 기본 줄바꿈 허용 */
+        word-wrap: break-word; /* 긴 단어의 경우 줄바꿈 허용 */
+     	font-size: 1.5em;
+     }
+
+}
+
+
+    @media screen and (max-width: 767px) {
+    #wrap {
+        width: 100vw;
+        padding: 10px; 
+    }
+
+    #header {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    #header .logo,
+    #header .nav {
+        width: 100%;
+        height: auto; 
+    }
+
+    .nav > ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+	.nav > ul > li{
+		width: 100%;
+	}
+    .nav > ul > li > a {
+        padding: 15px; 
+        width: 100%; 
+        text-align: center;
+    }
+	.nav > ul > li> a:hover > ul > li{
+		z-index: 30;
+	}
+
+    h1, h2, p {
+        font-size: 1.5em; 
+        text-align: center; 
+    }
+
+    #contents, #contents1 {
+        width: 90%; 
+        padding: 10px; 
+    }
+
+    .bottom {
+        width: 100%;
+        height: auto; 
+        text-align: center; 
+    }
+
+    .btmenu {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .btmenu li {
+        margin: 5px 0; 
+    }
+
+    .familysite select {
+        width: 80%; 
+        left: 0;
+        top: -180px;  
+        margin: 0 auto;
+    }
+
+    #sns {
+        position: static; 
+        margin: 20px 0;
+    }
+
+    #car .photo, #hotel .photo {
+        width: 100%; 
+        margin: 0 auto; 
+    }
+    .photo1>img {
+		width: 100px;
+		height: 100px;
+	}
+
+    #hotel .photo2 {
+		display: none;
+	}
+    .main-section, .main-section1 {
+        width: 90%; 
+        margin: 20px auto;
+        padding: 10px; 
+    }
+    .text1 {
+		width: 100%;
+	}
+}
