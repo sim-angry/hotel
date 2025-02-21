@@ -31,7 +31,7 @@
 <br>
 7. 국내숙박예약수정/삭제
 
-![숙박예약수정](https://github.com/user-attachments/assets/7fc326b1-6fc0-40dc-b4c4-f883154877a7)
+![숙박예약수정](https://github.com/user-attachments/assets/446f31c1-948a-4847-8b1c-d52702a20f21)
 <br>
 <br>
 8. 렌터카예약수정/삭제
